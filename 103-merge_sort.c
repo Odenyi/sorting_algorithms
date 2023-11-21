@@ -49,7 +49,7 @@ void merge(size_t lo, size_t mi, size_t hi, int *dest, int *src)
 		{
 			if (iom < mi && (jom >= hi || src[iom] <= src[jom]))
 			{
-				dest[kom] = src[i];
+				dest[kom] = src[iom];
 				iom++;
 			}
 			else

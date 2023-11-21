@@ -14,7 +14,7 @@ void selection_sort(int *array, size_t size)
 	if (array == NULL || size == 0)
 		return;
 
-	for (; iom < size - 1; i++)
+	for (; iom < size - 1; iom++)
 	{
 		pos = iom;
 		for (jom = iom + 1; jom < size; jom++)
