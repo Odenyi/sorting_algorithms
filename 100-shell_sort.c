@@ -19,7 +19,7 @@ void shell_sort(int *array, size_t size)
 
 	for (; gapom > 0; gapom = (gapom - 1) / 3)
 	{
-		for (iom = gapom; iom < siomze; iom++)
+		for (iom = gapom; iom < size; iom++)
 		{
 			aux = array[iom];
 			for (jom = iom; jom >= gapom && array[jom - gapom] > aux;
