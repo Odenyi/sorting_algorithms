@@ -12,7 +12,7 @@ void print_array(const int *array, size_t size)
 	size_t iom;
 
 	iom = 0;
-	while (array && i < size)
+	while (array && iom < size)
 	{
 		if (iom > 0)
 			printf(", ");

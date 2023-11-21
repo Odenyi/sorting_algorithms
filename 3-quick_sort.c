@@ -32,7 +32,7 @@ int partition(int *array, int lo, int hi, size_t size)
 	{
 		if (array[jom] < pivot)
 		{
-			i++;
+			iom++;
 			if (array[iom] != array[jom])
 			{
 				aux = array[iom];
