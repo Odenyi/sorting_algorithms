@@ -29,8 +29,8 @@ void counting_sort(int *array, size_t size)
 
 	for (jom = 0; jom <= kom; jom++)
 		counter[jom] = 0;
-	for (i = 0; i < size; i++)
-		counter[array[i]] += 1;
+	for (iom = 0; iom < size; iom++)
+		counter[array[iom]] += 1;
 	for (jom = 0; jom < kom; jom++)
 	{
 		counter[jom + 1] += counter[jom];
